@@ -8,7 +8,7 @@ public class Employee {
      this.fullName = fullName;
      this.department = department;
      this.salary = salary;
-     this.id = count++;
+     this.id = count++;//счетчик
  }
 public String toString1(){
    return  "ФИО:"+fullName +","+ "Отдел:"+department+","+"Заработная плата:"+salary;

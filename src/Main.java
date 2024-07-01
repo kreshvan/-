@@ -10,7 +10,7 @@ public class Main {
 
 
         for (int i = 0; i < employees123.length; i++) {
-            Employee employeeSalary0 = employees123[i];//вызов зарплаты 0 сотрудника (в int)
+            Employee employeeSalary0 = employees123[i];///вызов зарплаты 0 сотрудника (в int)
             if (employeeSalary0 != null) {
                 averageSalary = ( summaSalary + employeeSalary0.getSalary())/employees123.length;
             }
