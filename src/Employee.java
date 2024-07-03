@@ -10,11 +10,11 @@ public class Employee {
      this.salary = salary;
      this.id = count++;//счетчик
  }
-public String toString1(){
+public String toStringFullNameDepartmentSalary(){
    return  "ФИО:"+fullName +","+ "Отдел:"+department+","+"Заработная плата:"+salary;
 }
-    public String toString() {
-        return "ФИО:" + fullName;
+    public String toStringFullName() {
+     return "ФИО:" + fullName;
     }
     public static int id(int i){
  i++;
